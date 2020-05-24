@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+#chicken{
+    position:relative;
+    top-right:-20em;
+    }
+.menu {
+  float:center;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  border:solid black;
+  margin-top:10px;
+  margin-left: 30px;
+  margin-right:30px;
+  background-color:#e5e5e5;
+  width:25%;
+  padding:0 10px;
+  text-align:center;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  border:solid black;
+  width:20%;
+  padding:15px;
+  margin-top:10px;
+  
+  text-align:center;
+}
+.left {
+  background-color:#e5e5e5;
+  float:left;
+  border:solid black;
+  width:20%;
+  padding:15px;
+  margin-top:10px;
+  margin-left:10px;
+  text-align:center;
+}
+h2{
+  color:pink;
+}
+h3{
+  color:red;
+}
+h4{
+  color:yellow;
+}
+p{
+  color:black;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+
+  @media(min-width:992px){
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+      float:left;
+      border:1px solid green;
+    } 
+    .col-lg-1{
+      width:8.33%;
+    }
+    .col-lg-2{
+      width:16.66%;
+    }
+    .col-lg-3{
+      width:25%;
+    }
+    .col-lg-4{
+      width:33%;
+    }
+    .col-lg-5{
+      width:41.66%;
+    }
+    .col-lg-6{
+      width:50%;
+    }
+    .col-lg-7{
+      width:58.33%;
+    }
+    .col-lg-8{
+      width:66.66%;
+    }
+    .col-lg-9{
+      width:74.99%;
+    }
+    .col-lg-10{
+      width:83.33%;
+    }
+    .col-lg-11{
+      width:91.66%;
+    }
+    .col-lg-12{
+      width:100%;
+    }
+  }
+  @media(min-width:768px) and (max-width:991px){
+   .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{ 
+  float:left;
+      border:1px solid green;
+    } 
+    .col-md-1{
+      width:8.33%;
+    }
+    .col-md-2{
+      width:16.66%;
+    }
+    .col-md-3{
+      width:25%;
+    }
+    .col-md-4{
+      width:33%;
+    }
+    .col-md-5{
+      width:41.66%;
+    }
+    .col-md-6{
+      width:50%;
+    }
+    .col-md-7{
+      width:58.33%;
+    }
+    .col-md-8{
+      width:66.66%;
+    }
+    .col-md-9{
+      width:74.99%;
+    }
+    .col-md-10{
+      width:83.33%;
+    }
+    .col-md-11{
+      width:91.66%;
+    }
+    .col-md-12{
+      width:100%;
+    }
+  }
+  @media only screen and (max-width:768px){
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+      float:left;
+      border:1px solid green;
+    } 
+    .col-1{
+      width:8.33%;
+    }
+    .col-2{
+      width:16.66%;
+    }
+    .col-3{
+      width:25%;
+    }
+    .col-4{
+      width:33%;
+    }
+    .col-5{
+      width:41.66%;
+    }
+    .col-6{
+      width:50%;
+    }
+    .col-7{
+      width:58.33%;
+    }
+    .col-8{
+      width:66.66%;
+    }
+    .col-9{
+      width:74.99%;
+    }
+    .col-10{
+      width:83.33%;
+    }
+    .col-11{
+      width:91.66%;
+    }
+    .col-12{
+      width:100%;
+    }
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:9px;text-align:center;">
+  <h1>OUR MENU</h1>
+</div>
+  <div class="menu">
+  </div>
+
+  <div class="left">
+    <div class="w3-row-padding">
+    <div class="col-lg-3 col-md-6 w3-third">
+    <h2>Chicken</h2>
+    <p>When you are trying to eat better and/or lose weight chicken is a popular choice whether you are cooking for yourself or your entire family. Ever versatile,  it can be prepared so many different ways.</p>
+  </div>
+  </div>
+</div>
+
+  <div class="main">
+    <div class="col-lg-3 col-md-6 w3-third">
+    <h3>Beef</h3>
+    <p>There should be no excessive fat.
+The lean meat should be flecked with fat which is known as marbling.
+The fat should be dry, creamy white in colour and odourless.</p>
+  </div>
+</div>
+
+  <div class="right">
+    <div class="col-lg-3 col-md-6 w3-third">
+    <h4>Sushi</h4>
+    <p>Take that sashimi and place it on a little pillow of rice and you have nigiri sushi. The rice is gently flavored with vinegar, and each piece of sushi should amount to a single bite, according to Hiyakawa.</p>
+  </div>
+</div>
+
+
+</body>
+</html>
